@@ -1,0 +1,19 @@
+# yml은 개행, 공백과 :공백을 기준으로 계층을 구분한다. 파이썬과 유사
+#예 server: 
+#   port: ->server.port
+server: 
+  port: 9191
+
+# DB 접속 설정
+spring: 
+  datasource: 
+    drvier-class-name: oracle.jdbc.driver.Oracle
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: spring
+    password: spring
+    
+  mvc:
+    view:
+      prefix: "/WEB-INF/views/"
+      suffix: ".jsp"
+      
