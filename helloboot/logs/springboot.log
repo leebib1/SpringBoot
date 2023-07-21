@@ -3838,3 +3838,11 @@ Caused by: java.io.FileNotFoundException: class path resource [org/springframewo
 2023-07-21 14:48:56.699 DEBUG 10324 --- [http-nio-9191-exec-4] com.bs.helloboot.common.aop.LoggerAop    : com.bs.helloboot.websocket.ChattingServer afterConnectionEstablished
 2023-07-21 14:48:56.699 DEBUG 10324 --- [http-nio-9191-exec-4] com.bs.helloboot.common.aop.LoggerAop    : ====================================
 2023-07-21 14:48:56.700 DEBUG 10324 --- [http-nio-9191-exec-4] c.bs.helloboot.websocket.ChattingServer  : 접속 완료
+2023-07-21 15:07:11.488  INFO 10324 --- [RMI TCP Connection(29)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-07-21 15:07:11.496  INFO 10324 --- [RMI TCP Connection(29)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-21 15:07:11.497  INFO 10324 --- [RMI TCP Connection(29)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-21 15:07:11.501 DEBUG 10324 --- [RMI TCP Connection(29)-127.0.0.1] com.bs.helloboot.common.aop.LoggerAop    : =========== AOP Before ============
+2023-07-21 15:07:11.502 DEBUG 10324 --- [RMI TCP Connection(29)-127.0.0.1] com.bs.helloboot.common.aop.LoggerAop    : com.bs.helloboot.websocket.ChattingServer afterConnectionClosed
+2023-07-21 15:07:11.502 DEBUG 10324 --- [RMI TCP Connection(29)-127.0.0.1] com.bs.helloboot.common.aop.LoggerAop    : ====================================
+2023-07-21 15:07:11.508  INFO 10324 --- [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-21 15:07:11.517  INFO 10324 --- [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
