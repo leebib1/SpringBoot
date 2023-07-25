@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="member">
+	<select id="selectMemberAll" resultType="member">
+		SELECT * FROM MEMBER
+	</select>
+	<insert id="insertMember" parameterType="member">
+		INSERT INTO MEMBER VALUE(#{userId},#{password},#{userName},#{gender},${age}
+			,#{email},#{phone},#{address},#{hobby},DEFAULT);
+	</insert>
+</mapper>
