@@ -71,7 +71,10 @@ public class BasicController {
 		return service.selectMemberByName(param);
 	}
 	
-	
+	@GetMapping("/ajax/memberAll")
+	public List<Member> memberAll(){
+		return service.selectMemberAll();
+	}
 	
 	
 	

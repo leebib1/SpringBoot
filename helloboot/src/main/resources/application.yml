@@ -26,6 +26,11 @@ spring:
 #mybatis:
 #  config-location: classpath:/config/mybatis-config.xml
 #  mapper-locations: classpath:/mappers/**/*.xml
+
+#MyBatis snake case to camel case
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
   
 # log 설정
 logging:

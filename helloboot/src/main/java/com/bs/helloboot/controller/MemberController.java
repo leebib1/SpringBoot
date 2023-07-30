@@ -1,10 +1,13 @@
 package com.bs.helloboot.controller;
 
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.bs.helloboot.dto.Member;
 import com.bs.helloboot.service.MemberService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -29,4 +32,5 @@ public class MemberController {
 		model.addAttribute("members",service.selectMemberAll());
 		return "member/memberList";
 	}
+	
 }
