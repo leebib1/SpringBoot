@@ -53,5 +53,11 @@
 				});
 		}
 	</script>
+	
+	<h2>JPA 적용</h2>
+	<h3><a href="${pageContext.request.contextPath }/jpa/member/admin">관리자 조회</a></h3>
+	<h3><a href="${pageContext.request.contextPath }/jpa/member/insertMember">사원생성 조회</a></h3>
+	<h3><a href="${pageContext.request.contextPath }/board">게시글 조회</a></h3>
+	<h3><a href="${pageContext.request.contextPath }/board?title='안녕'">게시글 제목으로 조회</a></h3>
 </body>
 </html>
